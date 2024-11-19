@@ -1,9 +1,49 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="gPdW0CuAH19aOvPV7b1a">
-    <mxGraphModel>
+    <mxGraphModel dx="683" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RlFuTGHUs_5tt1KGti-4-2" target="RlFuTGHUs_5tt1KGti-4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-2" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlFuTGHUs_5tt1KGti-4-3" target="RlFuTGHUs_5tt1KGti-4-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-3" value="iPhone App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-4" value="Rev. Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="255" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-6" value="HTTPS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RlFuTGHUs_5tt1KGti-4-8" target="RlFuTGHUs_5tt1KGti-4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-8" value="Reverse Proxy should be configured to allow only our HTTPs signed by our custom CA, install this onto device at app installation time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-10" value="HTTP or HTTPS traffic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-11" value="Host Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RlFuTGHUs_5tt1KGti-4-12" value="Initial design should not support scaling, but should be easily modifiable to introduce scaling." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="450" width="220" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
